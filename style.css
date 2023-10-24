@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: black 100px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header nav {
+    width:80%;
+}
+header nav ul a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    transition: all 0.6s;
+    list-style-type: none;
+}
+    
+header nav ul a:hover {
+    transform: scale(1.2);
+    color: rgb(255, 0, 0);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
